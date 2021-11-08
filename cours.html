@@ -6,18 +6,19 @@
     <title>Mon super site Groupe E</title>
     <meta charset="utf-8">
     <meta name="description" content="Ma belle decription pour Google">
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 
 <body>
     <!-- HEADER -->
     <header>
-        <h1>Mon super site Groupe E</h1>
+        <h1 id="titre">Mon super site Groupe E</h1>
         <nav>
-            <ul>
-                <li>ACCUEIL</li>
-                <li>CONTACT</li>
-                <li>A PROPOS</li>
+            <ul class="mon-menu">
+                <li class="item">ACCUEIL</li>
+                <li class="item">CONTACT</li>
+                <li class="item">A PROPOS</li>
             </ul>
         </nav>
     </header>
@@ -44,10 +45,10 @@
         <h2> LA SECTION AUTRE</h2>
 
         <!-- UNE IMAGE-->
-        <img alt="UN MAGNIFIQUE COCKTAIL" src="assets/imgs/cocktail_BobMarley.jpg" width="50" />
+        <img alt="UN MAGNIFIQUE COCKTAIL" src="assets/imgs/cocktail_BobMarley.jpg" class="ma-belle-image" />
 
         <!-- UNE LISTE ORDONNÉE -->
-        <ol>
+        <ol class="ma-liste-desordonnee">
             <li>Item 1</li>
             <li>Item 2</li>
             <li>Item 3</li>
@@ -55,7 +56,7 @@
         </ol>
 
         <!-- un formulaire de contact-->
-        <form action="mailto:bastien.roussel.pro@gmail.com" method="get">
+        <form class="mon-form" action="mailto:bastien.roussel.pro@gmail.com" method="get">
             <label>Entre ton nom mec</label>
             <input type="text" required>
 
@@ -82,7 +83,7 @@
 
 
 
-    <footer>
+    <footer class="footer">
         <p>AUTHOR : Bastien ROUSSEL</p>
     </footer>
 

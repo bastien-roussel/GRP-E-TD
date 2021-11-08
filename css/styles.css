@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#titre {
+    font-size: 3em;
+    color: #c46666;
+}
+
+.item {
+    display: inline;
+    background-color: #666666;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 2em;
+    margin-top: 3em;
+}
+
+.item:hover {
+    background-color: burlywood;
+    color: #000000;
+}
+
+h2 {
+    margin-top: 2em;
+    background-color: #c46666;
+    color: #FFFFFF;
+    padding-left: 5em;
+}
+
+h3 {
+    color: blue;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article,
+.mon-form,
+.ma-liste-desordonnee {
+    background-color: #E5E5E5;
+    margin: 4em;
+    text-align: justify;
+    padding: 2em;
+}
+
+button {
+    border-radius: 25px;
+    padding: 2em;
+    background-color: #c46666;
+    margin: 2em;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.footer {
+    background-color: grey;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 2em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.ma-belle-image {
+    width: 50%;
+}
